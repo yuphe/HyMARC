@@ -12,7 +12,6 @@ yp : column number for data y
 
 def Gaussian(data,sigma,xp,yp):
     import sys, math
-    import arg
 
     dx = data[1][xp] - data[0][xp]
     sgm = sigma * dx
